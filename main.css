@@ -3,35 +3,27 @@ body {
 font-family: 'Merriweather', serif;
 }
 
-#wrapper {
-width: 100%;
+nav {
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+
+}
+
+nav a {
+font-family: 'Lobster', cursive;
+font-size: 1.5em;
+text-decoration: none;
+
+}
+
+.link {
+padding: 0% 9%;
 display: flex;
 justify-content: center;
 }
 
-ul {
-list-style: none;
-display: flex;
-flex-direction: row;
-}
 
-.link {
-font-family: 'Lobster', cursive;
-font-size: 2em;
-padding: 2px;
-}
-
-.link a{
-text-decoration: none;
-}
-
-.link span {
-	display: flex;
-	justify-content: center;
-	height: 50px;
-	width: 300px;
-	flex-wrap: wrap;
-}
 
 #link1 {
 background-color: #996666;
