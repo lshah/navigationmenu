@@ -4,28 +4,33 @@ font-family: 'Merriweather', serif;
 }
 
 #wrapper {
-max-width: 940px;
+width: 100%;
 display: flex;
 justify-content: center;
-padding: 0% 20%;
-
 }
-
-nav {
-padding: 1% 1%;
-}
-
 
 ul {
 list-style: none;
 display: flex;
 flex-direction: row;
+}
 
+.link {
+font-family: 'Lobster', cursive;
+font-size: 2em;
+padding: 2px;
 }
 
 .link a{
 text-decoration: none;
-color: black;
+}
+
+.link span {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	width: 300px;
+	flex-wrap: wrap;
 }
 
 #link1 {
@@ -65,20 +70,6 @@ background-color: #668099;
 
 #link5 a {
 color: #b3c0cc;
-}
-
-.link{
-font-family: 'Lobster', cursive;
-font-size: 2em;
-padding: 2px;
-
-}
-
-.link span {
-	display: block;
-	height: 50px;
-	width: 300px;
-	text-align: center;
 }
 
 
