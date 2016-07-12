@@ -1,0 +1,21 @@
+@media screen and (min-width: 940px) {
+  
+}
+
+
+@media screen and (max-width: 940px) {
+	
+	ul {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+  
+  .link span {
+	display: block;
+	height: 50px;
+	width: 940px;
+	text-align: center;
+  }
+  
+}
