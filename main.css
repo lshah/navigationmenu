@@ -3,11 +3,15 @@ body {
 font-family: 'Merriweather', serif;
 }
 
+header {
+text-align: center;
+}
+
 nav {
 display: flex;
 justify-content: space-around;
 flex-direction: row;
-
+margin-top: 2%;
 }
 
 nav a {
@@ -18,50 +22,94 @@ text-decoration: none;
 }
 
 .link {
-padding: 0% 9%;
+padding: 1% 9%;
 display: flex;
 justify-content: center;
 }
 
-
-
 #link1 {
-background-color: #996666;
+background-color: #ccb3b3;
 }
 #link1 a {
+color: #996666;
+}
+
+#link1:hover {
+background-color: #996666;
+}
+#link1:hover a {
 color: #ccb3b3;
 }
 
 #link2 {
-background-color: #999966;
+background-color: #c0ccb3;
 }
 
 #link2 a {
-color: #ccccb3;
+color: #809966;
 }
 
-#link3 {
+#link2:hover {
 background-color: #809966;
 }
 
-#link3 a {
+#link2:hover a {
 color: #c0ccb3;
 }
 
-#link4 {
+#link3 {
+background-color: #b3ccc6;
+}
+
+#link3 a {
+color: #66998c;
+}
+
+#link3:hover {
 background-color: #66998c;
 }
 
-#link4 a {
+#link3:hover a {
 color: #b3ccc6;
 }
 
-#link5 {
+#link4 {
+background-color: #b3c0cc;
+}
+
+#link4 a {
+color: #668099;
+}
+
+#link4:hover {
 background-color: #668099;
 }
 
-#link5 a {
+#link4:hover a {
 color: #b3c0cc;
 }
 
+#link5 {
+background-color: #ccc0b3;
+}
 
+#link5 a {
+color: #998066;
+}
+
+#link5:hover {
+background-color: #998066;
+}
+
+#link5:hover a {
+color: #ccc0b3;
+}
+
+#text {
+padding: 0% 15%;
+}
+
+footer {
+padding: 0% 15%;
+text-align: center;
+}
