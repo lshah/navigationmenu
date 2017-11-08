@@ -114,28 +114,3 @@ padding: 0% 15%;
 text-align: center;
 }
 
-
-/****Temporary Switch project css***/#switchboard {
-height: 50px;
-width: 150px;
-border-radius: 10px;
-background-color: #862d59;
-margin: 5% 15%;
-display: flex;
-justify-content: flex-start;
-}
-
-#switch-on {
-height: 40px;
-width: 70px;
-border-radius: 10px;
-background-color: white;
-margin: 5px;
-position: relative;
-
-}
-
-#switch-on:target {
--webkit-transform: translateX(70px);
-background-color: #cc6699;
-}
